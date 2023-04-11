@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 nav {
   display: grid;
   grid-template-columns: 1fr auto;
