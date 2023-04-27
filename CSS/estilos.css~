@@ -16,7 +16,7 @@ section {
   }
 }
 footer {
-  background-color: white;
+  background-color: #fff;
   color: var(--second-c);
 }
 footer ul {
@@ -54,7 +54,7 @@ footer ul li {
 }
 
 .link-elements-footer li a {
-  color: black;
+  color: #000000;
 }
 
 .rrss-element-footer ul {
@@ -184,7 +184,7 @@ span {
 }
 
 .header {
-  background-color: black;
+  background-color: #000000;
   color: #ffffff;
   padding: 15px;
   font-size: xx-large;
@@ -216,15 +216,7 @@ span {
   width: 100%;
   text-align: center;
   line-height: 3;
-  color: white;
-}
-.navb:hover {
-  background: #e2c9aa;
-  color: rgb(0, 0, 0);
-}
-.navb:hover:active {
-  background: #e2c9aa;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .list-item.li:last-child a {
@@ -232,7 +224,17 @@ span {
 }
 
 .navb:link, a:visited, a:focus {
-  background: black;
+  background: rgb(0, 0, 0);
+}
+
+.navb:hover {
+  background: rgb(226, 201, 170);
+  color: rgb(0, 0, 0);
+}
+
+.navb:active {
+  background: rgb(226, 201, 170);
+  color: rgb(0, 0, 0);
 }
 
 @media (min-width: 1201px) {
@@ -462,4 +464,4 @@ span {
   padding: 50px;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.css~.map */

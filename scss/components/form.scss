@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+$color-bg-form: #ffe5a8;
+$color-bg-map:#a8a8a8;
+  .formul {
+    color: #000;
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana;
+  }
+  
+  .contact_form {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+    background-color:$color-bg-form;
+    padding-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    background-color: #fbfbfb;
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #615b58;
+  }
+  
+  textarea {
+    background-color: #fbfbfb;
+    justify-content: center;
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #615b58;
+  }
+  
+  label {
+    display: block;
+    float: center;
+  }
+  
+  button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #615b58;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+
+    p {
+      color: #fff;
+    }
+  }
+  
+  span {
+    color: #000000;
+  }
+  
+  .aviso {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  ::-webkit-input-placeholder {
+    color:$color-bg-map;
+  }
+  
+  ::-webkit-textarea-placeholder {
+    color: $color-bg-map;
+  }

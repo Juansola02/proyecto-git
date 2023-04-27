@@ -1,9 +1,13 @@
 @import"./base";
 
-@import"./components/";
+@import"./components/footer.scss";
+@import"./components/form.scss";
+@import"./components/navbar.scss";
 
 @import"./pages/index";
 @import"./pages/productos";
 @import"./pages/promociones";
 @import"./pages/quienessomos";
 @import"./pages/contacto";
+
+$color-nav: black

@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#contenedor-index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .masthead-index .masthead-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .masthead-index .masthead-avatar {
+    width: 7rem;
+    display: block;
+    margin: auto;
+  }
+
+  .masthead-index {
+    padding-top: calc(5rem + 30px);
+    padding-bottom: 3rem;
+  }
+
+  #principal {
+    width: 50%;
+    background-color: rgb(42, 42, 42);
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana;
+  }
+
+  #sidebar {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .imagen {
+    padding-bottom: 1rem;
+    padding-top: calc(1rem + 20px);
+    width: 12rem;
+    display: block;
+    margin: auto;
+  }
+  

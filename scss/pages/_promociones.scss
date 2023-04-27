@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#barpromo {
+    width: 100%;
+    padding-top: 1%;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .masthead-promociones .masthead-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .masthead-promociones {
+    padding-top: calc(5rem + 30px);
+    padding-bottom: 3rem;
+  }
+
+  #contenedor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
